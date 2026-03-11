@@ -1,0 +1,195 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ 
+/* 
+    ==========================
+    Start navbar section 
+    ==========================
+*/
+
+.nav{
+
+    background-color: #5b5ba9;
+    width: 70%;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    position: fixed;
+    margin:0 15%;
+    display:flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-home a{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+
+.nav-home a:hover{
+    color: antiquewhite;
+    background-color: #9595e8;
+    border-radius: 50px;
+}
+/* 
+    ==========================
+    End navbar section 
+    ==========================
+*/
+
+/* 
+    ==========================
+    Start Header section 
+    ==========================
+*/
+.header-home {
+    background-image: url(../Image/66.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.header-content{
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+.header-content h2{
+
+    font-family: cursive;
+    font-size: 31px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 22px;
+
+}
+
+.header-content a{
+    background-color:#5b5ba9;
+    color: #fff;
+    border: none;
+    border-radius: 28px;
+    padding: 8px 22px ;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-right: 14px; 
+    text-decoration: none;
+} 
+
+.header-content a:hover{
+    color: antiquewhite;
+    background-color: #9595e8;
+}
+/* 
+    ==========================
+    End Header section 
+    ==========================
+*/
+
+
+/* 
+    ==========================
+    Start enjoy section 
+    ==========================
+*/
+
+.enjoy{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.enjoy h3{
+    font-size: 28px;
+    font-family: cursive;
+    letter-spacing: 1px;
+    word-spacing: -2px;
+    margin-bottom: 19px;
+}
+.enjoy h6{
+    font-size: 17px;
+    margin-bottom: 29px;
+    letter-spacing: 3px;
+}
+.enjoy img{
+    width: 300px;
+    margin-right: 20px ;
+    height: 450px;
+}
+
+/* 
+    ==========================
+    End enjoy section 
+    ==========================
+*/
+
+/* 
+    ==========================
+    Start footer section 
+    ==========================
+*/
+
+.cu{
+    background-color: #5b5ba9;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px 80px 0 0;
+
+}
+
+form{
+    width: 50%;
+    background:linear-gradient(to right, #b701e0,#27122c) ;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px ;
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+}
+form p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+form input ,textarea{
+    height: 30px ;
+    width:100% ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.copyright{
+    color: #fff;
+    background-color: #5b5ba9;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid #4f295a;
+    padding: 10px;
+    font-weight:600 ;
+}
+/* 
+    ==========================
+    End footer section 
+    ==========================
+*/
